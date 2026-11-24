@@ -3,3 +3,9 @@
 [hidden]{display:none!important}
 
 #fixedSummary{font-weight:bold;padding:16px;background:#e8f0ff;color:#18345a;border-radius:12px;margin-bottom:12px;line-height:1.8}#fixedList .item{flex-wrap:wrap}#fixedList .desc{min-width:90px}#fixedEditor{margin-top:16px}#seedFixed{margin-top:12px}
+
+#summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#summary>div{min-width:0;overflow-wrap:anywhere}#summary .remaining{grid-column:1/-1;background:#15664f;color:white;padding:18px}#summary .remaining small{color:white}#summary .remaining strong{font-size:clamp(26px,7vw,36px)}#summary .remaining.deficit{background:#a63b3b}main,section,form,label,details{min-width:0;max-width:100%}form{grid-template-columns:minmax(0,1fr)}input,select{max-width:100%;width:100%}nav button{min-width:0}#periodLabel{overflow-wrap:anywhere} @media(max-width:480px){main{padding:12px}section{padding:14px}.stats strong{font-size:clamp(16px,4.8vw,20px)}.item .desc{min-width:0;overflow-wrap:anywhere}nav button{font-size:14px}}
+
+#summary small{display:block;font-size:clamp(11px,3.2vw,14px)}
+
+#goalProgress{width:100%;accent-color:#176650}.trendRow{display:grid;grid-template-columns:65px minmax(0,1fr) auto;gap:8px;align-items:center;margin:10px 0;font-size:13px}.trendBar{height:12px;background:#e7f2ed;border-radius:5px;overflow:hidden}.trendBar>div{height:100%;background:#176650}#savingStats>div{min-width:0;overflow-wrap:anywhere}#addSaving{margin-top:15px}nav button{flex:1 1 0;padding:10px 4px}
